@@ -1,0 +1,77 @@
+
+html{
+  font-family: 'Karma', serif;
+}
+
+#wrapper{
+  margin-right: auto;
+  margin-left: auto;
+  width: 960px;
+}
+
+#header_block{
+  font-size: 1em;
+  margin-right: 10px;
+  margin left: 10px;
+  width: 940px;
+  height:361px;
+  position: relative;
+}
+
+
+a.linkclass1:link{color:black; text-decoration: none}
+a.linkclass1:hover{color:gray; text-decoration: underline;}
+a.linkclass1:visited{color:black;}
+a.linkclass1{
+  font-size: 1em;
+  font-weight: 600;
+}
+
+
+
+#menubar{
+  background-color:rgba(240, 243, 255, 0.7);
+  height: 40px;
+  width: 940px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.menu_buttons{
+  width: 70px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 10px;
+  font-size: 1.2em;
+}
+
+#header_pic{
+position: absolute;
+z-index:-1;
+}
+
+#greet_text{
+  color: white;
+  text-align: left;
+  width:300px;
+  padding-top: 200px;
+  padding-left: 30px;
+  padding-bottom: 100px;
+  font-size: 1.3em;
+}
+
+
+
+#footer{
+  height: 40px;
+  width: 940px;
+  text-align: center;
+  vertical-align: center;
+  bottom: 0
+  left: 0;
+  clear: both;
+  padding-top: 10px
+}
+

@@ -1,28 +1,30 @@
-
 html{
-  font-family: calibri;
+  font-family: 'PT Sans',sans-serif, arial;
+  background-color: rgb(196, 201, 196);
+
 }
 
 #heading{
 text-align: center;
 font-weight: bold;
-font-family: serif;
-font-size: x-large;
+font-size: 2em;
 padding-bottom: 5px;
-background-color: aqua;
 }
 
-#menu_bar{
-background-color: rgba(0, 0, 0, 0.68);
+
+nav{
+background-color: rgb(56, 44, 44);
 color: white;
 display: inline-block;
 width: 100%;
 height:50px;
 vertical-align: middle;
 text-align: center;
+font-size: 1.3em;
 }
 
-#menu_buttons{
+
+.menu_buttons{
   display: inline-block;
   text-align: center;
   height: 100%;
@@ -38,7 +40,7 @@ text-align: center;
 
 #blog_title{
   padding-top: 10px;
-  font-size: x-large;
+  font-size: 3em;
 }
 
 #blog_subtitle{
@@ -51,4 +53,16 @@ text-align: center;
   font-size: small
 }
 
+a.linkclass1:hover{color:lightgray;}
+a.linkclass1:link{color:white; text-decoration: none}
+a.linkclass1:visited{color:white;}
 
+#header_pic{
+  margin: 1em 1em 1em 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#header_block{
+}
