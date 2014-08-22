@@ -135,9 +135,15 @@ a:visited{text-decoration: none;
 
 #button1div{
   text-align: center;
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 25px;
 }
 
 h5{
   color: gray;
+}
+
+.blogImage1{
+  width: 100px;
+  display: block;
 }
