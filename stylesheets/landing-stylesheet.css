@@ -144,6 +144,11 @@ h5{
 }
 
 .blogImage1{
-  width: 100px;
+  width: 90%;
   display: block;
+  padding-left: 5%
+}
+
+.blogImageIcon{
+  width: 100px;
 }
