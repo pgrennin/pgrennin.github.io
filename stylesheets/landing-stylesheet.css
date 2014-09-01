@@ -149,6 +149,12 @@ h5{
   padding-left: 5%
 }
 
+.blogImage2{
+  width: 50%;
+  display: block;
+  padding-left: 20%;
+}
+
 .blogImageIcon{
   width: 100px;
 }
