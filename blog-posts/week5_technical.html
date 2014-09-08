@@ -1,0 +1,86 @@
+
+<!doctype html>
+<meta charset="utf-8">
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/landing-stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Karma|Roboto+Condensed' rel='stylesheet' type='text/css'>
+  <title></title>
+  </head>
+
+  <body>
+  <div id="wrapper">
+
+    <div id="header_block">
+      <div id="menubar">
+          <div class="menu_buttons"><a class="linkclass1" href="../index.html"> Home </a> </div>
+          <div class="menu_buttons"><a class="linkclass1" href="../about.html"> About </a> </div>
+          <div class="menu_buttons"><a class="linkclass1" href="../blog.html"> Blog </a></div>
+          <div class="menu_buttons"><a class="linkclass1" href="../contact.html"> Contact </a></div>
+       </div>
+    </div>
+
+  <div id="body">
+
+<!--update this stuff -->
+    <h2>A Simple Example of Classes in Ruby</h2>
+    <h5>September 7, 2014</h5>
+<!-- text of article -->
+This week I've been completing challenges that use Ruby classes.  In this post I'll talk about what a class is and give an example of a class object.  In Ruby, classes are objects that we can create new instances of and run certain methods on them.   Classes can either be user-defined or Ruby built-in classes.  For example String, Integer, and Float are Examples of Ruby classes that are built-in.  As you may know we can run certain methods on these classes such as: <p>
+<p><img src="../images/week5_technical/1.png" alt="1"><p>
+
+In this case "hello" is an instance of the string class and #upcase is a method we run on it.  We can also create our own user-defined classes that allow us to create our own methods.  <p>
+
+In the example below we create a house class which we can create certain instances of the 'House' class.<p>
+<p><img src="../images/week5_technical/2.png" alt="2"><p>
+
+
+Note that when we define a class object it always begins with a capital letter.  The initialize method is used when defining instance variables and passing arguments into the class object.   Instance variables begin with an '@' symbol.   Whenever you are creating an variable that can be applied to an instance of the class object, use an instance variable.  In the example above, we created instance variables for the house address, year built, and square footage.  <p>
+
+Remember, that the initialize method is run every time we create a new class object.  To create an instance of the house object we use the following :<p>
+<p><img src="../images/week5_technical/3.png" alt="3"><p>
+
+
+We define a variable for the new house object, set it equal to the class name, run the #new method, and pass attributes of the house object in parenthesis.<p>
+
+We can also create instance methods.    Instance methods are methods that we can call on the class object.  Methods of this kind are defined inside the class and intended for use by all instances of the class.<p>
+<p><img src="../images/week5_technical/5.png" alt="5"><p>
+
+
+In our example, if we were to run the #address method on the  'the_white_house' object we would get:<p>
+
+<p><img src="../images/week5_technical/4.png" alt="4"><p>
+
+
+Classes exist for the purpose of creating an instance of the class and running certain user-defined methods on them.   As a object oriented language classes are a core component of Ruby.  <p>
+
+<!-- Image format -->
+<!-- <img class="blogImage1" src="../images/imagename.png" alt="text"> <p> -->
+
+
+
+
+<!-- When finished add link to article in blog.html index page -->
+    <div id="button1div">
+    <a href="../blog.html" class="button1">See all posts</a>
+    </div>
+
+  </div>
+
+    <div id="footer">
+        <a href="https://twitter.com/pgrenn"><img title="Twitter" src="../images/icon-twitter-hover.png" alt="Twitter"/></a>
+        &nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/patrickgrenning"><img title="LinkedIn" src="../images/icon-linkedin-hover.png" alt="Google +"/></a>
+        &nbsp;&nbsp;
+        <a href="https://www.facebook.com/pat.grenning"><img title="Facebook" src="../images/icon-facebook-hover.png" alt="Facebook"/></a>
+        &nbsp;&nbsp;
+        <a href="https://plus.google.com/108114941304622815070/posts"><img title="Google +" src="../images/icon-googleplus-hover.png" alt="Google +"/></a>
+    </div>
+  </div>
+
+  </div>
+  </body>
+</html>
+
+
+
