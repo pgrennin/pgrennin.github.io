@@ -24,9 +24,9 @@ html{
 }
 
 
-a.linkclass1:link{color:black; text-decoration: none}
+a.linkclass1:link{color:white; text-decoration: none}
 a.linkclass1:hover{color:gray; text-decoration: underline;}
-a.linkclass1:visited{color:black;}
+a.linkclass1:visited{color:white;}
 a.linkclass1{
   font-size: 1em;
   font-weight: 600;
@@ -34,7 +34,7 @@ a.linkclass1{
 
 
 
-#menubar{
+/*#menubar{
   background-color:rgba(240, 243, 255, 0.7);
   height: 40px;
   width: 100%;
@@ -42,8 +42,20 @@ a.linkclass1{
   text-align: center;
   vertical-align: center;
   top: 0;
-
 }
+*/
+#menubar{
+  background-color: #455860;
+  height: 40px;
+  width: 100%;
+  max-width: 940px;
+  min-width: 300px;
+  text-align: center;
+  vertical-align: center;
+  position-left: auto;
+  position-right: auto;
+}
+
 
 .menu_buttons{
   width: 70px;
@@ -53,9 +65,8 @@ a.linkclass1{
   vertical-align: center;
   padding-top: 10px;
   font-size: 1.2em;
+  color: white;
 }
-
-
 
 #greet_text{
   color: white;

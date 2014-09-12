@@ -1,0 +1,79 @@
+
+<!doctype html>
+<meta charset="utf-8">
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/landing-stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Karma|Roboto+Condensed' rel='stylesheet' type='text/css'>
+  <title></title>
+  </head>
+
+  <body>
+  <div id="wrapper">
+
+    <div id="header_block">
+      <div id="menubar">
+          <div class="menu_buttons"><a class="linkclass1" href="../index.html"> Home </a> </div>
+          <div class="menu_buttons"><a class="linkclass1" href="../about.html"> About </a> </div>
+          <div class="menu_buttons"><a class="linkclass1" href="../blog.html"> Blog </a></div>
+          <!-- <div class="menu_buttons"><a class="linkclass1" href="../contact.html"> Contact </a></div> -->
+       </div>
+    </div>
+
+  <div id="body">
+
+<!--update this stuff -->
+    <h2>Inheritance vs Composition in Ruby</h2>
+    <h5>Friday, September 12, 2014</h5>
+
+
+<img class="blogImage1" src="../images/week6_technical/3.jpg" alt="text"> <p>
+
+
+In my blog last week I introduced the concept of Classes in Ruby.  Classes are objects that we can create instances of and run methods on.  This week I'm going to introduce the concept of inheritance and composition and how they relate to classes.  <p>
+
+Inheritance is a relationship between two classes in Ruby.   When we say a class inherits from another class we are saying the class acquires the methods and behaviors defined in its parent class.   <p>
+
+In the example below Salmon inherits from Fish since salmon is a type of fish.  The "is a" relationship is a good way to think about how inheritance works.  <p>
+<img src="../images/week6_technical/1.png" alt="text"> <p>
+
+
+Notice the symbol '<' designates Salmon as a subclass of Fish.  Salmon will now share the characteristics of the Fish class such as: lives_in_water, has_gills, and cold_blooded.  <p>
+
+Composition is another way we can allow classes to share attributes and methods without using inheritance.  Ruby uses the concepts of 'modules' to achieve this.  <p>
+<img src="../images/week6_technical/2.png" alt="text"> <p>
+
+Notice in the example below the use of the 'Other' module.  In the Salmon class we throw in "include Other" to give the Salmon class access to that module.  We are then able to successfully call the swim method on an instance of Salmon.<p>
+
+How do you choose between using inheritance and using composition? The main goal is to avoid duplicating code.  Choose whichever strategy is least complex and avoids duplication.  As long as either strategy achieves this, it is rather subjective when to use inheritance or composition.  <p>
+
+<!-- Image format -->
+<!-- <img class="blogImage1" src="../images/imagename.png" alt="text"> <p> -->
+
+
+
+
+<!-- When finished add link to article in blog.html index page -->
+    <div id="button1div">
+    <a href="../blog.html" class="button1">See all posts</a>
+    </div>
+
+  </div>
+
+    <div id="footer">
+        <a href="https://twitter.com/pgrenn"><img title="Twitter" src="../images/icon-twitter-hover.png" alt="Twitter"/></a>
+        &nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/patrickgrenning"><img title="LinkedIn" src="../images/icon-linkedin-hover.png" alt="Google +"/></a>
+        &nbsp;&nbsp;
+        <a href="https://www.facebook.com/pat.grenning"><img title="Facebook" src="../images/icon-facebook-hover.png" alt="Facebook"/></a>
+        &nbsp;&nbsp;
+        <a href="https://plus.google.com/108114941304622815070/posts"><img title="Google +" src="../images/icon-googleplus-hover.png" alt="Google +"/></a>
+    </div>
+  </div>
+
+  </div>
+  </body>
+</html>
+
+
+
