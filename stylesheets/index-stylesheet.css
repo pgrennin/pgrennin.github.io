@@ -1,4 +1,3 @@
-
 /*Contains all formatting for header and footer of all pages.  All pages on my site should be linked to this CSS page.  Inser the following into the html file:
   <link rel="stylesheet" type="text/css" href="../stylesheets/index-stylesheet.css">
 */
@@ -71,9 +70,21 @@ a.linkclass1{
   color: #488FAC;
 }
 
-.about_me1{
-  width: 25%;
+.about_me_image{
+  width: 40%;
+  display: inline-block;
+  float: left;
+  padding-bottom: 10px;
+  padding-right: 30px;
 }
+
+
+#body2{
+  display: inline-block;
+  width: 55%;
+  font-size: 1.3em;
+}
+
 
 #footer{
   height: 40px;
