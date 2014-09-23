@@ -1,0 +1,86 @@
+html{
+  font-family: 'Karma', serif;
+}
+
+#wrapper{
+  text-align: left;
+  margin: 0px auto;
+  width: 100%;
+}
+
+#header_block{
+  font-size: 1em;
+  margin-right: 10px;
+  margin left: 10px;
+  width: 100%;
+  max-width: 960px;
+  position: relative;
+}
+
+a.linkclass1:link{color:white; text-decoration: none}
+a.linkclass1:hover{color:black; text-decoration: underline;}
+a.linkclass1:visited{text-decoration: none;
+  color: white;
+}
+a.linkclass1{
+  font-size: 1em;
+  font-weight: 600;
+}
+
+
+  #menubar{
+  background-color: #455860;
+  height: 40px;
+  width: 100%;
+  max-width: 940px;
+  min-width: 300px;
+  text-align: center;
+  vertical-align: center;
+  position-left: auto;
+  position-right: auto;
+}
+
+.menu_buttons{
+  width: 70px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 10px;
+  font-size: 1.2em;
+  color: white;
+}
+
+
+#body{
+padding-top: 20px;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: rgba(20, 65, 111, 1.0);
+}
+
+#footer{
+  height: 40px;
+  width: 100%;
+  max-width: 940px;
+  text-align: center;
+  vertical-align: center;
+  bottom: 0
+  left: 0;
+  clear: both;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+h1{
+  color: gray;
+  font-weight: 900;
+  border-bottom-color: red;
+}
+
+h2{
+  display: inline;
+  font-weight: 900;
+  font-size: 1em;
+}
+

@@ -1,0 +1,68 @@
+html{
+  font-family: 'PT Sans',sans-serif, arial;
+  background-color: rgb(196, 201, 196);
+
+}
+
+#heading{
+text-align: center;
+font-weight: bold;
+font-size: 2em;
+padding-bottom: 5px;
+}
+
+
+nav{
+background-color: rgb(56, 44, 44);
+color: white;
+display: inline-block;
+width: 100%;
+height:50px;
+vertical-align: middle;
+text-align: center;
+font-size: 1.3em;
+}
+
+
+.menu_buttons{
+  display: inline-block;
+  text-align: center;
+  height: 100%;
+  padding: 12px 10px 0px 10px;
+}
+
+#blog_body{
+  background-color: lightgray;
+  display: inline-block;
+  width: 100%;
+  height:750px;
+}
+
+#blog_title{
+  padding-top: 10px;
+  font-size: 3em;
+}
+
+#blog_subtitle{
+  font-size: x-small;
+  padding-top: 1px
+}
+
+#blog_text{
+  padding-top: 15px;
+  font-size: small
+}
+
+a.linkclass1:hover{color:lightgray;}
+a.linkclass1:link{color:white; text-decoration: none}
+a.linkclass1:visited{color:white;}
+
+#header_pic{
+  margin: 1em 1em 1em 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#header_block{
+}

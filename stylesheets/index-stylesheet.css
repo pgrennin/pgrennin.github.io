@@ -1,11 +1,10 @@
 
+/*Contains all formatting for header and footer of all pages.  All pages on my site should be linked to this CSS page.  Inser the following into the html file:
+  <link rel="stylesheet" type="text/css" href="../stylesheets/index-stylesheet.css">
+*/
+
 html{
   font-family: 'Karma', serif;
-  background: url(../images/pic9.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 #wrapper{
@@ -15,18 +14,16 @@ html{
 }
 
 #header_block{
-  font-size: 1em;
-  margin-right: 10px;
-  margin left: 10px;
-  width: 100%;
-  height:361px;
-  position: relative;
+  padding-bottom: 10px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #455860;
 }
 
 
 a.linkclass1:link{color:white; text-decoration: none}
 a.linkclass1:hover{color:gray; text-decoration: underline;}
-a.linkclass1:visited{color:white;}
+a.linkclass1:visited{color:white; text-decoration: none; }
 a.linkclass1{
   font-size: 1em;
   font-weight: 600;
@@ -34,26 +31,16 @@ a.linkclass1{
 
 
 
-/*#menubar{
-  background-color:rgba(240, 243, 255, 0.7);
-  height: 40px;
-  width: 100%;
-  min-width: 300px;
-  text-align: center;
-  vertical-align: center;
-  top: 0;
-}
-*/
+
 #menubar{
-  background-color: #455860;
+  background-color: #262626;
   height: 40px;
   width: 100%;
-  max-width: 940px;
-  min-width: 300px;
-  text-align: center;
+  text-align: left;
   vertical-align: center;
   position-left: auto;
   position-right: auto;
+
 }
 
 
@@ -64,30 +51,50 @@ a.linkclass1{
   text-align: center;
   vertical-align: center;
   padding-top: 10px;
-  font-size: 1.2em;
+  font-size: 1em;
   color: white;
+  font-family: 'Oswald', sans-serif;
 }
 
-#greet_text{
-  color: white;
+
+.name_in_menu{
+  display: inline-block;
   text-align: left;
-  width:33%;
-  padding-top: 200px;
-  padding-left: 30px;
-  padding-bottom: 100px;
-  font-size: 1.3em;
+  vertical-align: center;
+  background-color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  padding-right: 5%;
+  color: #ee4f30;
 }
 
-
+.about_me1{
+  width: 25%;
+}
 
 #footer{
   height: 40px;
   width: 100%;
   text-align: center;
   vertical-align: center;
-  bottom: 0;
+  bottom: 0
   left: 0;
-  position: absolute;
-  padding-bottom: 50px;
+  clear: both;
+  display: inline-block;
+  padding-top: 10px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #455860;
 }
 
+h1{
+  color: gray;
+  font-weight: 900;
+  border-bottom-color: red;
+}
+
+h2{
+color: #455860;
+}

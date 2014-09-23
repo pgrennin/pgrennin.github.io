@@ -1,0 +1,94 @@
+
+<!doctype html>
+<meta charset="utf-8">
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/landing-stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Karma|Roboto+Condensed' rel='stylesheet' type='text/css'>
+  <title></title>
+  </head>
+
+  <body>
+  <div id="wrapper">
+
+    <div id="header_block">
+      <div id="menubar">
+          <div class="menu_buttons"><a class="linkclass1" href="../index.html"> Home </a> </div>
+          <div class="menu_buttons"><a class="linkclass1" href="../about.html"> About </a> </div>
+          <div class="menu_buttons"><a class="linkclass1" href="../blog.html"> Blog </a></div>
+          <!-- <div class="menu_buttons"><a class="linkclass1" href="../contact.html"> Contact </a></div> -->
+       </div>
+    </div>
+
+  <div id="body">
+
+    <h2>The Difference Between Relative, Absolute, and Fixed Positioning in CSS</h2>
+    <h5>Sunday, August 17, 2014</h5>
+
+
+In this post I will explain the difference relative, absolute, and fixed positioning in CSS.   CSS is a programming language which allows us to add amazing style and content to webpages.   Positioning in CSS is how and where objects on a webpage appear.  Positioning allows us to center objects, overlay text on an image, set dimensions to objects, and  much more.  An important concept to understand is that all elements are made up of blocks, which can be defined by a height and width.  In CSS we use the 'position' property to change how these blocks on a webpage display.  There are three possible values for position in CSS:
+
+<ol>
+  <li>Relative</li>
+  <li>Absolute</li>
+  <li>Fixed</li>
+</ol>
+
+<h3>Relative Positioning</h3>
+Relative positioning allows us to change the position of an element relative to its normal position.  For example if we wanted to move an image 10 pixels to the right and 100px lower relative to its normal position we might use the following CSS properties and values:<p>
+
+#red_square{<br>
+position: relative;<br>
+left: 10px;<br>
+top: 100px;<br>
+}<p>
+
+In this image below, the red box would normally appear in the upper left of the container, but we moved it 10 pixels to the right and 100 pixels lower by changing it's position relative to it's normal position.<p>
+
+<img src="../images/positioning_ex1.png" alt="example 1"><p>
+
+(Sources:  Example images are from w3schools.com)
+
+<h3>Absolute Positioning</h3>
+Absolute positioning allows us to place an element anywhere on the page and set its position relative to its parent container.  If there is no parent container than you can literally place the image anywhere on the page.  It is similar to relative position but we are adjusting the element's position relative to the parent container rather than its normal position.<p>
+
+In this example below, the parent container is the light green area, and the red element is positioned relative to it.<p>
+
+<img src="../images/positioning_ex2.png" alt="example 2"><p>
+
+<h3>Fixed Positioning</h3>
+Fixed positioning is positioned relative to the viewport or the browser window itself and is fixed into that position.  Though they're fairly rare, you most often see this implemented when the menu bar is fixed at the top of the page while you scroll down a page.  In other words a fixed element is always displayed on the page even if you scroll several pages down.<p>
+
+Before concluding it's worth mentioning that all elements are positioned by the static property by default.  Static just means the element will flow onto the page as it normally would, either horizontally (inline) or vertically (block) depending on the display type of the element.
+
+
+
+
+
+
+
+
+
+    <div id="button1div">
+    <a href="../blog.html" class="button1">See all posts</a>
+    </div>
+
+  </div>
+
+    <div id="footer">
+        <a href="https://twitter.com/pgrenn"><img title="Twitter" src="../images/icon-twitter-hover.png" alt="Twitter"/></a>
+        &nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/patrickgrenning"><img title="LinkedIn" src="../images/icon-linkedin-hover.png" alt="Google +"/></a>
+        &nbsp;&nbsp;
+        <a href="https://www.facebook.com/pat.grenning"><img title="Facebook" src="../images/icon-facebook-hover.png" alt="Facebook"/></a>
+        &nbsp;&nbsp;
+        <a href="https://plus.google.com/108114941304622815070/posts"><img title="Google +" src="../images/icon-googleplus-hover.png" alt="Google +"/></a>
+    </div>
+  </div>
+
+  </div>
+  </body>
+</html>
+
+
+

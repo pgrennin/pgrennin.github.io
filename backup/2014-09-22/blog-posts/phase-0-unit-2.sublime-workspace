@@ -1,0 +1,469 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"iron",
+				"ironMan"
+			],
+			[
+				"att",
+				"attack2"
+			],
+			[
+				"ir",
+				"ironMonger"
+			],
+			[
+				"opp",
+				"opponentArmor"
+			],
+			[
+				"atta",
+				"attackDamage"
+			],
+			[
+				"ironMan",
+				"ironMan"
+			],
+			[
+				"a",
+				"attackerSpeed"
+			],
+			[
+				"attac",
+				"attackerWeaponRating"
+			],
+			[
+				"o",
+				"opponentArmor"
+			],
+			[
+				"Carter",
+				"Carter"
+			],
+			[
+				"actor",
+				"actorlist"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bottom",
+				"border-bottom-color"
+			],
+			[
+				"border-bottom",
+				"border-bottom-width"
+			],
+			[
+				"l",
+				"solid"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"link",
+				"linkclass1"
+			],
+			[
+				"serif",
+				"sans-serif"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"print",
+				"print_triangle"
+			],
+			[
+				"hi",
+				"high_integer"
+			],
+			[
+				"count",
+				"count_between"
+			],
+			[
+				"arr",
+				"array2"
+			],
+			[
+				"if",
+				"if	if … end"
+			],
+			[
+				"num",
+				"num1"
+			],
+			[
+				"n",
+				"num1"
+			],
+			[
+				"nu",
+				"num2"
+			],
+			[
+				"def",
+				"def	def … end"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Ruby/Ruby.sublime-build",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"htm",
+				"Snippet: html"
+			],
+			[
+				"snip",
+				"Snippet: html"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sort_",
+				"Snippet: sort_by { |e| .. }"
+			],
+			[
+				"hash",
+				"Snippet: Hash Pair — :key => \"value\""
+			],
+			[
+				"snip has",
+				"Snippet: Hash Pair — :key => \"value\""
+			],
+			[
+				"snip def",
+				"Snippet: def … end"
+			],
+			[
+				"modulu",
+				"Snippet: module .. module_function .. end"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet each",
+				"Snippet: each { |e| .. }"
+			],
+			[
+				"sni",
+				"Snippet: require \"..\""
+			],
+			[
+				"snippet ",
+				"Snippet: def … end"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"snippets cla",
+				"Snippet: class .. < ParentClass .. initialize .. end"
+			],
+			[
+				"snippet",
+				"Snippet: case … end"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 493.0
+	},
+	"console":
+	{
+		"height": 111.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-3/5-design-cc-mission-solo-challenge/my_solution.js",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-3/6-group-project/my_solution.js",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-3/6-group-project/gc1_pseudocode.js",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-3/4-manipulating-js-objects/my_solution.js",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-3/9-gps1.2/our_solution.js",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-3/2-eloquent-js/my_solution.md",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-3/3-js-variables-objects/my_solution.js",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/.git/COMMIT_EDITMSG",
+		"/Users/pgrennin/Desktop/scrapjs1.js",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-2/6-your-website-solo-challenge/my_reflection.md",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-3/1-code-combat/my_solution.js",
+		"/Users/pgrennin/Dropbox/programs/phase-0/pgrennin.github.io/blog.html",
+		"/Users/pgrennin/Dropbox/programs/phase-0/pgrennin.github.io/about.html",
+		"/Users/pgrennin/Dropbox/programs/phase-0/pgrennin.github.io/contact.html",
+		"/Users/pgrennin/Dropbox/programs/phase-0/pgrennin.github.io/blog-posts/c1-chefs-kitchen.html",
+		"/Users/pgrennin/Dropbox/programs/phase-0/pgrennin.github.io/blog-posts/chefskitchen.html",
+		"/Users/pgrennin/Dropbox/programs/phase-0/pgrennin.github.io/stylesheets/blog-stylesheet.css",
+		"/Users/pgrennin/Dropbox/programs/phase-0/pgrennin.github.io/stylesheets/landing-stylesheet.css",
+		"/Users/pgrennin/Dropbox/programs/phase-0/pgrennin.github.io/index.html",
+		"/Users/pgrennin/Dropbox/programs/phase-0/pgrennin.github.io/blog-posts/website-comparison.html",
+		"/Users/pgrennin/Dropbox/programs/phase-0/pgrennin.github.io/blog-posts/blog-template.html",
+		"/Users/pgrennin/Dropbox/programs/phase-0/pgrennin.github.io/stylesheets/index-stylesheet.css",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-2/5-responsive-design/stylesheet.css",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-2/5-responsive-design/starting-point.html",
+		"/Users/pgrennin/Desktop/Personal Website.sublime-project",
+		"/Users/pgrennin/Desktop/phase-0-unit-1.sublime-project",
+		"/Users/pgrennin/Desktop/scraphtml.html",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-2/3-chrome-devtools/my_reflection.md",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-2/3-chrome-devtools/dev_tools_practice.md",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-2/2-think-about-time/my_reflection.md",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-2/3-chrome-devtools/readme.md",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/.git/MERGE_MSG",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-1/9-blog-template-solo-challenge/my_reflection.md",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-1/7-beginning-css/my_reflection.md",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-1/7-beginning-css/my-berkshire-stylesheet.css",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-1/6-beginning-html/my-berkshire-site.html",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-1/8-wireframing/my_reflection.md",
+		"/Users/pgrennin/Desktop/temp/scrap.css",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-1/4-set-up-repo/my_reflection.md",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-1/5-web-basics/my_reflection.md",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-1/6-beginning-html/my_reflection.md",
+		"/Users/pgrennin/Desktop/junk.html",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-1/3-git-started/my_solution.md",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-1/2-github-intro/my_reflection.md",
+		"/Users/pgrennin/Dropbox/programs/phase-0/phase-0-unit-1/week-1/2-github-intro/readme.md",
+		"/Users/pgrennin/Dropbox/programs/excercises/socrates/triangle_side_lengths.rb",
+		"/Users/pgrennin/Dropbox/programs/excercises/socrates/arithmetical_methods.rb",
+		"/Users/pgrennin/Dropbox/programs/excercises/socrates/calc_letter_grade.rb",
+		"/Users/pgrennin/Dropbox/programs/excercises/socrates/leap_year.rb",
+		"/Users/pgrennin/Dropbox/programs/excercises/socrates/good_guess.rb",
+		"/Users/pgrennin/Dropbox/programs/excercises/socrates/simple_substrings",
+		"/Users/pgrennin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Millions",
+			"jpg",
+			"<a href=\"#\">",
+			">\n",
+			"00",
+			"steelblue",
+			"lsteelue",
+			"Projects",
+			"\n</",
+			"png",
+			"small",
+			"fa",
+			"high_integer",
+			"low_integer",
+			"\n#",
+			"condition",
+			"1",
+			"puts",
+			"method_name",
+			"test",
+			"paths"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 178.0
+	},
+	"output.markdown":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"temp",
+				"temp"
+			],
+			[
+				"",
+				"patrick"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 149.0,
+	"status_bar_visible": true
+}
