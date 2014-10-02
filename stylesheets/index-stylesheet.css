@@ -20,13 +20,27 @@ html{
 }
 
 
+/* LINK STYLING*/
+a:link{color:#488FAC; text-decoration: none}
+a:hover{color:gray; text-decoration: underline;}
+a:visited{text-decoration: none; color: #488FAC;}
+
+/* Link class 1 is for Header menubuttons */
 a.linkclass1:link{color:white; text-decoration: none}
 a.linkclass1:hover{color:gray; text-decoration: underline;}
 a.linkclass1:visited{color:white; text-decoration: none; }
-a.linkclass1{
-  font-size: 1em;
-  font-weight: 600;
-}
+a.linkclass1{font-size: 1em; font-weight: 600;}
+
+
+/* Link class 2 has no text decoration for links*/
+a.linkclass2:link{text-decoration: none}
+a.linkclass2:visited{text-decoration: none}
+a.linkclass2:hover{text-decoration: none}
+
+/*Link Class 3 is for name logo on homepage*/
+a.linkclass3:link{text-decoration: none; color: #488FAC;}
+a.linkclass3:visited{text-decoration: none; color: #488FAC;}
+a.linkclass3:hover{text-decoration: none; color: #488FAC;}
 
 
 #menubar{
@@ -83,7 +97,6 @@ a.linkclass1{
   font-size: 1.3em;
 }
 
-
 #footer{
   height: 40px;
   width: 100%;
@@ -112,3 +125,4 @@ color: #455860;
 h5{
   color: gray;
 }
+

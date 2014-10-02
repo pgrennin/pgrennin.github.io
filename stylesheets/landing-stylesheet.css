@@ -3,10 +3,10 @@
 padding-top: 20px;
 }
 
-a:link{color:#488FAC; text-decoration: none}
+/*a:link{color:#488FAC; text-decoration: none}
 a:hover{color:gray; text-decoration: underline;}
 a:visited{text-decoration: none;
-  color: #488FAC;}
+  color: #488FAC;}*/
 
 .button1 {
   -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
